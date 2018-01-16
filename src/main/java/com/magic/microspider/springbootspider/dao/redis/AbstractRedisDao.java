@@ -1,6 +1,8 @@
-package com.magic.microspider.util;
+package com.magic.microspider.springbootspider.dao.redis;
 
 import com.alibaba.fastjson.JSON;
+import com.magic.microspider.util.CommonUtil;
+import com.magic.microspider.util.ReflectionUtil;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;

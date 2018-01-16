@@ -1,5 +1,6 @@
 package com.magic.microspider.launch;
 
+import com.magic.microspider.springbootspider.base.httpclient.HttpConnectionMonitor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationListener;
@@ -16,6 +17,7 @@ public class Launcher implements ApplicationListener<ContextRefreshedEvent> {
 
     private static ApplicationContext context;
 
+    private static HttpConnectionMonitor httpMonitor;
 
 
     @Override
